@@ -1,0 +1,12 @@
+[package]
+name = "ip2region"
+version = "0.1.0"
+authors = ["shell <asypost@yeah.net>"]
+
+
+[dependencies]
+
+[lib]
+name="ip2region"
+path="src/lib/mod.rs"
+crate-type=["cdylib","rlib"]
